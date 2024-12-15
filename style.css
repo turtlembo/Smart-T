@@ -63,10 +63,14 @@ header span{
 }
 .hero-left{
     display: inline-block;
-    width: 493px;
+    width: 583px;
     vertical-align: 95px;
+    position: relative;
+    z-index: 10;
+
 }
 .hero-left h1{
+
     color:white;
     font-size: 50px;
 }
@@ -94,14 +98,48 @@ header span{
     display: inline-block;
 }
 .hero-right img:first-child{
-    width: 600px;
+    width: 520px;
 }
 .hero-right{
     position: relative;
+    left: -70px;
+    z-index: 1;
 }
 .hero-right img:last-child{
     width: 230px;
     position: absolute;
     right: 0px;
     bottom: -20px;
+}
+.tutorial{
+    padding: 82px 0;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: 40px;
+    color: #664535;
+    font-weight: 700;
+}
+.title h2 span{
+    color: #75B5C8;
+}
+.title p{
+    color: #664535;
+    font-size: 20px;
+    font-weight: 400px;
+    width: 750px;
+    display: inline-block;
+    margin: 11px 0 37px 0;
+}
+.tutorial .card-left{
+    position: relative;
+    border: 1px solid red;
+    display: inline-block;
+}
+.tutorial .card-left img:last-child{
+    position: absolute;
+    bottom: -50px;
+    right: -80px;
 }
