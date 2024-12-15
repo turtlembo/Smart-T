@@ -54,5 +54,54 @@ header span{
     text-align: center;
     vertical-align: 28px;
     margin-left: -12px;
-
+}
+.hero{
+    background-image: url(img/Group_3123464.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 48px 0;
+}
+.hero-left{
+    display: inline-block;
+    width: 493px;
+    vertical-align: 95px;
+}
+.hero-left h1{
+    color:white;
+    font-size: 50px;
+}
+.hero-left p{
+    color: #664535;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 28px 0 59px 0;
+}
+.hero-left a{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 17px 33px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+.hero-left a:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.411);
+}
+.hero-right{
+    display: inline-block;
+}
+.hero-right img:first-child{
+    width: 600px;
+}
+.hero-right{
+    position: relative;
+}
+.hero-right img:last-child{
+    width: 230px;
+    position: absolute;
+    right: 0px;
+    bottom: -20px;
 }
