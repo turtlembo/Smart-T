@@ -173,3 +173,52 @@ header span{
 .card2 .card-left{
     margin-left: 180px;
 }
+.wrapper {
+    background-color:#13B0B1;
+    border-radius: 20px;
+    color: white;
+    padding: 45px 103px;
+}
+.offer-left{
+    width: 484px;
+    display: inline-block;
+}
+.offer-left h3{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+.offer a{
+    display: inline-block;
+    background-color:#FF8543;
+    padding: 17px 124px;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-left: 57px;
+    vertical-align: 30px;
+}
+.description h3{
+    display: inline-block;
+    font-size: 40px;
+    width: 380px;
+}
+.description .color{
+    color:#75B5C8;
+    position: relative;
+
+}
+.description .border{
+
+    background-color: black;
+    display: block;
+    height: 20px;
+    width: 260px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
